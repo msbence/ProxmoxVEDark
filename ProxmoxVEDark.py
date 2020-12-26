@@ -68,7 +68,7 @@ def checkConn():
         urllib.request.urlopen('http://github.com')
         return
     except:
-        cprint(colors.FAIL, 'An Internet connection is required to install PVEDiscordDark.', True)
+        cprint(colors.FAIL, 'An Internet connection is required to install ProxmoxVEDark.', True)
         cprint(colors.NORMAL, 'Connect to the Internet and try again.')
         exit(1)
 
@@ -86,13 +86,13 @@ def themeIsInstalled():
 def installTheme():
     clear()
     doHeader()
-    baseURL = os.getenv('BASEURL', 'https://github.com/Weilbyte/PVEDiscordDark/raw/' + os.getenv("BRANCH", "master"))
+    baseURL = os.getenv('BASEURL', 'https://github.com/msbence/ProxmoxVEDark/raw/' + os.getenv("BRANCH", "master"))
     cprint(colors.NORMAL, '\nBacking up index template file..')
     shutil.copyfile('/usr/share/pve-manager/index.html.tpl', '/usr/share/pve-manager/index.html.tpl.bak')
     cprint(colors.NORMAL, 'Downloading stylesheet..')
-    urllib.request.urlretrieve(baseURL + '/PVEDiscordDark/sass/PVEDiscordDark.css', '/usr/share/pve-manager/css/dd_style.css')
+    urllib.request.urlretrieve(baseURL + '/ProxmoxVEDark/sass/ProxmoxVEDark.css', '/usr/share/pve-manager/css/dd_style.css')
     cprint(colors.NORMAL, 'Downloading patcher..')
-    urllib.request.urlretrieve(baseURL + '/PVEDiscordDark/js/PVEDiscordDark.js', '/usr/share/pve-manager/js/dd_patcher.js')
+    urllib.request.urlretrieve(baseURL + '/ProxmoxVEDark/js/ProxmoxVEDark.js', '/usr/share/pve-manager/js/dd_patcher.js')
     cprint(colors.NORMAL, 'Applying stylesheet and patcher..')
     with open('/usr/share/pve-manager/index.html.tpl', 'a') as tplFile:
         tplFile.write("<link rel='stylesheet' type='text/css' href='/pve2/css/dd_style.css'>")
@@ -100,7 +100,7 @@ def installTheme():
     for index, image in enumerate(images):
         imageCurrent = index + 1
         cprint(colors.NORMAL, 'Downloading images [' + str(imageCurrent) + '/' + str(len(images)) + ']..\r', False, True)
-        urllib.request.urlretrieve(baseURL + '/PVEDiscordDark/images/' + image, '/usr/share/pve-manager/images/' + image)
+        urllib.request.urlretrieve(baseURL + '/ProxmoxVEDark/images/' + image, '/usr/share/pve-manager/images/' + image)
     cprint(colors.OKGREEN, '\nTheme installed successfully!', True)
     if ACTION == None:
         cprint(colors.NORMAL, 'Press [ENTER] to go back.')
@@ -141,7 +141,7 @@ def uninstallTheme():
 
 def doHeader():
     cprint(colors.HEADER, '[~]', True, True)
-    cprint(colors.NORMAL, ' PVEDiscordDark Utility\n', False, True)
+    cprint(colors.NORMAL, ' ProxmoxVEDark Utility\n', False, True)
 
 def doMainMenu():
     clear()
@@ -166,7 +166,7 @@ def doMainMenu():
         doMainMenu()
 
 def main():
-    parser = argparse.ArgumentParser(description='PVEDiscordDark Theme Utility')
+    parser = argparse.ArgumentParser(description='ProxmoxVEDark Theme Utility')
     parser.add_argument('--action', '-a', choices=['install', 'uninstall'], help='action for unattended mode')
     args = parser.parse_args()
     global ACTION
