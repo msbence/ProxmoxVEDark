@@ -218,9 +218,9 @@
   font-size: 13px;
   font-weight: 300;
   font-family: "helvetica", "arial", "verdana", "sans-serif";
-  border-color: #fff;
+  border-color: #222222;
   border-style: solid;
-  border-width: 0;
+  border-width: 1;
 }
 
 .x-toolbar-default {
@@ -717,7 +717,7 @@ div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
 }
 
 div[id^=toolbar-][id$=-innerCt] div[id^=toolbar-][id$=-targetEl] div ul li div {
-  background-color: #222222;
+  background-color: #333333;
 }
 
 div[id^=pveGuestStatusView-][id$=-body] {
@@ -737,7 +737,7 @@ div[id^=pveNotesView-][id$=-innerCt] {
 }
 
 [id^=proxmoxGauge] {
-  background: #222222;
+  background: #333333;
 }
 
 [id^=tooltip] {
