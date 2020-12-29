@@ -63,7 +63,7 @@
 }
 
 .x-grid-item-alt {
-  background: #23272a;
+  background: #333333;
   border-width: 0 !important;
 }
 
@@ -82,7 +82,7 @@
 }
 
 .x-grid-group-hd.x-grid-group-hd-collapsible {
-  background: #23272a;
+  background: #333333;
   color: #fff;
   border-width: 0;
 }
@@ -108,7 +108,7 @@
   position: relative;
   left: 0;
   top: 0;
-  background: #23272a;
+  background: #333333;
 }
 
 .x-treelist-item-leaf {
@@ -169,7 +169,7 @@
 }
 
 .x-treelist-item-selected > .x-treelist-row {
-  background-color: #23272a;
+  background-color: #333333;
 }
 
 .x-treelist-item-selected > div > div > div {
@@ -208,7 +208,7 @@
 }
 
 .x-panel-header {
-  background: #23272a;
+  background: #333333;
   border: 0;
 }
 
@@ -310,7 +310,7 @@
 }
 
 .x-column-header-inner {
-  background: #23272a;
+  background: #333333;
   border-width: 0 !important;
 }
 
@@ -324,7 +324,7 @@
 }
 
 .x-column-header-trigger {
-  border-color: #23272a;
+  border-color: #333333;
 }
 
 .x-tab {
@@ -358,7 +358,7 @@
 }
 
 .x-tab-bar-body {
-  background: #23272a;
+  background: #333333;
 }
 
 .x-tab-disabled {
@@ -366,23 +366,23 @@
 }
 
 .x-window-body {
-  background: #23272a;
+  background: #333333;
   border-bottom-width: 0;
   border-right-width: 0;
 }
 
 .x-window-default {
   border-radius: 0;
-  background-color: #23272a;
+  background-color: #333333;
   box-shadow: none;
-  border-color: #23272a;
+  border-color: #333333;
   border-style: none;
   border-width: 0;
   padding: 0;
 }
 
 .x-window-default-mc {
-  background-color: #23272a;
+  background-color: #333333;
 }
 
 .x-window-body-default {
@@ -395,7 +395,7 @@
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
-  background-color: #23272a;
+  background-color: #333333;
   border-width: 0 !important;
   padding: 9px;
 }
@@ -405,7 +405,7 @@
 }
 
 .x-window-header.x-header.x-header-draggable.x-docked.x-unselectable.x-window-header-default.x-horizontal.x-window-header-horizontal.x-window-header-default-horizontal.x-top.x-window-header-top.x-window-header-default-top.x-box-layout-ct {
-  background: #23272a;
+  background: #333333;
   border-bottom-width: 0;
   border-right-width: 0;
 }
@@ -415,10 +415,10 @@
 }
 
 .x-viewport {
-  background: #23272a;
+  background: #333333;
 }
 .x-viewport > .x-body {
-  background: #23272a;
+  background: #333333;
 }
 
 .x-menu-item-focus {
@@ -442,7 +442,7 @@
 
 .x-menu-header {
   border-radius: 1px;
-  background: #23272a;
+  background: #333333;
   border-width: 0;
 }
 
@@ -651,7 +651,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
 }
 
 .x-splitter {
-  background: #23272a;
+  background: #333333;
 }
 
 .x-splitter-collapsed .x-layout-split-bottom {
@@ -664,27 +664,27 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
   border: none;
 }
 .x-boundlist-item:hover {
-  background-color: #23272a;
+  background-color: #333333;
 }
 
 .x-boundlist {
-  border-color: #23272a;
+  border-color: #333333;
 }
 
 div[id^=pveDcHealth-][id$=-body], div[id^=pveDcGuests-][id$=-body], div[id^=pveDcSummary-][id$=-innerCt] > div:nth-child(3) > div:nth-child(2), div[id^=pveDcSummary-][id$=-innerCt] > div:nth-child(5) > div:nth-child(2) > div > div {
-  background-color: #23272a;
+  background-color: #333333;
 }
 
 div[id^=pveDcSummary-][id$=-innerCt] > div:nth-child(4) > div:nth-child(3) {
-  border: 1px solid #23272a;
+  border: 1px solid #333333;
 }
 
 div[id^=proxmoxRRDChart-] > div:nth-child(3) > div {
-  background-color: #23272a;
+  background-color: #333333;
 }
 
 div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
-  background: #23272a;
+  background: #333333;
 }
 
 #toolbar-1069-innerCt {
@@ -692,7 +692,7 @@ div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
 }
 
 #button-1030 {
-  background: #23272a;
+  background: #333333;
   border: 1px solid #d23d3f;
 }
 
@@ -713,7 +713,7 @@ div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
 }
 
 [id^=pveNodeStatus] {
-  background: #23272a;
+  background: #333333;
 }
 
 div[id^=toolbar-][id$=-innerCt] div[id^=toolbar-][id$=-targetEl] div ul li div {
@@ -721,23 +721,23 @@ div[id^=toolbar-][id$=-innerCt] div[id^=toolbar-][id$=-targetEl] div ul li div {
 }
 
 div[id^=pveGuestStatusView-][id$=-body] {
-  background: #23272a;
+  background: #333333;
 }
 
 div[id^=pveStorageStatusView-][id$=-body] {
-  background: #23272a;
+  background: #333333;
 }
 
 div[id^=pveNotesView-][id$=-innerCt] {
-  background: #23272a;
+  background: #333333;
 }
 
 [id^=versioninfo] {
-  background: #23272a;
+  background: #333333;
 }
 
 [id^=proxmoxGauge] {
-  background: #23272a;
+  background: #333333;
 }
 
 [id^=tooltip] {
@@ -779,7 +779,7 @@ div[id^=pveNotesView-][id$=-innerCt] {
 }
 
 [id^=legend] {
-  background: #23272a;
+  background: #333333;
   border-color: red;
 }
 
