@@ -63,7 +63,7 @@
 }
 
 .x-grid-item-alt {
-  background: #333333;
+  background: #222222;
   border-width: 0 !important;
 }
 
@@ -96,11 +96,11 @@
 }
 
 .x-box-scroller {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-box-scroller-body-vertical {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-box-inner {
@@ -117,7 +117,7 @@
 }
 
 .x-treelist-container {
-  background: #333333;
+  background: #222222;
   color: #fff;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .x-treelist-item-selected > .x-treelist-row {
-  background-color: #333333;
+  background-color: #444444;
 }
 
 .x-treelist-item-selected > div > div > div {
@@ -183,7 +183,7 @@
 }
 
 .x-legend-container {
-  background: #333333;
+  background: #222222;
   border-radius: 0;
   box-shadow: rgba(0, 0, 0, 0) 0 0 0;
   border-width: 0;
@@ -208,7 +208,7 @@
 }
 
 .x-panel-header {
-  background: #333333;
+  background: #222222;
   border: 0;
 }
 
@@ -233,11 +233,11 @@
 }
 
 .x-toolbar-vertical-scroller {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-toolbar-default-vertical-scroller {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-toolbar-text.x-box-item.x-toolbar-item.x-toolbar-text-default {
@@ -324,7 +324,7 @@
 }
 
 .x-column-header-trigger {
-  border-color: #333333;
+  border-color: #444444;
 }
 
 .x-tab {
@@ -395,7 +395,7 @@
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
   border-bottom-left-radius: 0 !important;
-  background-color: #333333;
+  background-color: #222222;
   border-width: 0 !important;
   padding: 9px;
 }
@@ -405,7 +405,7 @@
 }
 
 .x-window-header.x-header.x-header-draggable.x-docked.x-unselectable.x-window-header-default.x-horizontal.x-window-header-horizontal.x-window-header-default-horizontal.x-top.x-window-header-top.x-window-header-default-top.x-box-layout-ct {
-  background: #333333;
+  background: #222222;
   border-bottom-width: 0;
   border-right-width: 0;
 }
@@ -630,7 +630,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
 }
 
 .x-vertical-scroller {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-css-shadow {
@@ -651,7 +651,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
 }
 
 .x-splitter {
-  background: #333333;
+  background: #444444;
 }
 
 .x-splitter-collapsed .x-layout-split-bottom {
@@ -664,7 +664,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
   border: none;
 }
 .x-boundlist-item:hover {
-  background-color: #333333;
+  background-color: #444444;
 }
 
 .x-boundlist {
