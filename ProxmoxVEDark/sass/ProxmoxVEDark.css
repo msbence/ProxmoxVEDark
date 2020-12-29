@@ -96,11 +96,11 @@
 }
 
 .x-box-scroller {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-box-scroller-body-vertical {
-  background: #333333 !important;
+  background: #444444 !important;
 }
 
 .x-box-inner {
@@ -108,7 +108,7 @@
   position: relative;
   left: 0;
   top: 0;
-  background: #333333;
+  background: #222222;
 }
 
 .x-treelist-item-leaf {
@@ -233,11 +233,11 @@
 }
 
 .x-toolbar-vertical-scroller {
-  background: #444444 !important;
+  background: #333333 !important;
 }
 
 .x-toolbar-default-vertical-scroller {
-  background: #444444 !important;
+  background: #333333 !important;
 }
 
 .x-toolbar-text.x-box-item.x-toolbar-item.x-toolbar-text-default {
