@@ -213,7 +213,7 @@
 }
 
 .x-panel-body-default {
-  background: #222222;
+  background: #333333;
   color: #fff;
   font-size: 13px;
   font-weight: 300;
@@ -630,7 +630,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
 }
 
 .x-vertical-scroller {
-  background: #444444 !important;
+  background: #333333 !important;
 }
 
 .x-css-shadow {
