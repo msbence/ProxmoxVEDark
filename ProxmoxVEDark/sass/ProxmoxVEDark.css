@@ -717,7 +717,7 @@ div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
 }
 
 div[id^=toolbar-][id$=-innerCt] div[id^=toolbar-][id$=-targetEl] div ul li div {
-  background-color: #2C2F33;
+  background-color: #333333;
 }
 
 div[id^=pveGuestStatusView-][id$=-body] {
