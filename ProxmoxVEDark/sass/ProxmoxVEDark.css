@@ -96,11 +96,11 @@
 }
 
 .x-box-scroller {
-  background: #444444 !important;
+  background: #333333 !important;
 }
 
 .x-box-scroller-body-vertical {
-  background: #444444 !important;
+  background: #333333 !important;
 }
 
 .x-box-inner {
@@ -213,7 +213,7 @@
 }
 
 .x-panel-body-default {
-  background: #333333;
+  background: #222222;
   color: #fff;
   font-size: 13px;
   font-weight: 300;
