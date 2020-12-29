@@ -578,7 +578,7 @@ div[aria-labelledby^=ext-comp-][aria-labelledby$=_header-title-textEl] > div:nth
 }
 
 .x-progress {
-  background: #333333;
+  background: #444444;
 }
 
 .x-progress-default .x-progress-bar-default {
