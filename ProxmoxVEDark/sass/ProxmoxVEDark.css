@@ -713,31 +713,31 @@ div[id^=pveCephInstallWindow-][id$=-innerCt] div div div div {
 }
 
 [id^=pveNodeStatus] {
-  background: #333333;
+  background: #222222;
 }
 
 div[id^=toolbar-][id$=-innerCt] div[id^=toolbar-][id$=-targetEl] div ul li div {
-  background-color: #333333;
+  background-color: #222222;
 }
 
 div[id^=pveGuestStatusView-][id$=-body] {
-  background: #333333;
+  background: #222222;
 }
 
 div[id^=pveStorageStatusView-][id$=-body] {
-  background: #333333;
+  background: #222222;
 }
 
 div[id^=pveNotesView-][id$=-innerCt] {
-  background: #333333;
+  background: #222222;
 }
 
 [id^=versioninfo] {
-  background: #333333;
+  background: #222222;
 }
 
 [id^=proxmoxGauge] {
-  background: #333333;
+  background: #222222;
 }
 
 [id^=tooltip] {
